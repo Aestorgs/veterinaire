@@ -13,7 +13,7 @@ export class Pets {
   @Column()
   birthdate: string;
 
-  @ManyToOne(() => Types, (pets) => pets.Pets)
+  @ManyToOne(() => Types, (type) => type.Pets)
   Type: Types;
 
   @ManyToOne(() => Clients, (client) => client.Pets)

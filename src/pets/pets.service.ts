@@ -10,6 +10,8 @@ export class PetsService {
   ) {}
 
   findAll() {
-    return this.pets.find();
+    return this.pets.find({
+      relations: { Type: true },
+    });
   }
 }
