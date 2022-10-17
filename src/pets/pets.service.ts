@@ -11,7 +11,10 @@ export class PetsService {
 
   findAll() {
     return this.pets.find({
-      relations: { Type: true },
+      relations: {
+        Type: true,
+        clients: true,
+      },
     });
   }
 }
