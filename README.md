@@ -48,7 +48,7 @@ $ npm run start:prod
 ```bash
 # Docker
 # turn on docker and start the containers with this command
-$ docker-compose -up -d 
+$ docker-compose up -d 
 ```
 
 ## Test
