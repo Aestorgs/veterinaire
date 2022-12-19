@@ -41,7 +41,7 @@ Durée : 1 jours ,
 
 Taches réalisées : Aestorgs ,
 
-Technos utilisées : Typescript ,  Docker , postgres
+Technos utilisées : Typescript ,  Docker , Postgres
 
 Outils et ressources : TypeOrm , Nestjs
 
