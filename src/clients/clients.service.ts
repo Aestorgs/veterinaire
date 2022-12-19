@@ -8,6 +8,8 @@ export class ClientsService {
   constructor(
     @InjectRepository(Clients) private readonly client: Repository<Clients>,
   ) {}
+  
+  // j'affiche utilisateur et les animaux 
 
   findById(id: number) {
     return this.client.find({
