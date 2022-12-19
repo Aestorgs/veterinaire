@@ -1,7 +1,7 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { Pets } from './pets.entity';
 
-// je crée la table et crée les colonne 
+// je crée la table et crée les colonnes 
 @Entity('types')
 export class Types {
   @PrimaryGeneratedColumn()
