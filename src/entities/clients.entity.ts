@@ -2,6 +2,7 @@ import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { Pets } from './pets.entity';
 import { Utilisateur } from './user.entity';
 
+// il crée la table et crée les colonne 
 @Entity('clients')
 export class Clients {
   @PrimaryGeneratedColumn()
