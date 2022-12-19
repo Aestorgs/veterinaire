@@ -27,7 +27,7 @@
 
 ## Description
 
-Contexte: but du projet : Véterinaire 
+Contexte: but du projet : Crée un Véterinaire 
 
 Fonctionnalités attendues : 
 
