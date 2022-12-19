@@ -22,11 +22,18 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+
 ## Description
 
 Contexte: but du projet : Véterinaire 
 
-Fonctionnalités attendues : /users => 404 /users/:id => Affiche toutes les informations relatives a l'utilisateurs ${:id} ainsi que ses animaux
+Fonctionnalités attendues : 
+
+/users => 404 
+
+/users/:id => Affiche toutes les informations relatives a l'utilisateurs ${:id} ainsi que ses animaux
 
 /pets => Affiche tous les animaux enregistré dans la base de donnée
 
@@ -37,10 +44,6 @@ Taches réalisées : Aestorgs ,
 Technos utilisées : Typescript ,  Docker 
 
 Outils et ressources : TypeOrm , Nestjs
-
-
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
