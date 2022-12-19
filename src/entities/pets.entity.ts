@@ -2,7 +2,7 @@ import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Clients } from './clients.entity';
 import { Types } from './type.entity';
 
-// je crée la table et crée les colonne 
+// je crée la table et crée les colonnes 
 @Entity('pets')
 export class Pets {
   @PrimaryGeneratedColumn()
