@@ -9,6 +9,7 @@ export class PetsService {
     @InjectRepository(Pets) private readonly pets: Repository<Pets>,
   ) {}
 
+  //j'affiche les animaux et les types et utilisateur 
   findAll() {
     return this.pets.find({
       relations: {
