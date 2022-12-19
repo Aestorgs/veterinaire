@@ -1,6 +1,7 @@
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Clients } from './clients.entity';
 
+// je crée la table et crée les colonne 
 @Entity('utilisateur')
 export class Utilisateur {
   @PrimaryGeneratedColumn()
